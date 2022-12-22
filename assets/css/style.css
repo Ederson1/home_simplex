@@ -600,7 +600,7 @@ section {
 }
 */
 
-.img-fluid {
+.img-fluid2 {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -624,7 +624,7 @@ section {
 }
 
 @media (max-width: 768px) {
-  .img-fluid {
+  .img-fluid2 {
     max-width: 40%;
   }
   .img-fluid1{
