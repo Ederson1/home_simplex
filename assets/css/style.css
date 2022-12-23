@@ -115,7 +115,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Header
+# Header index
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
@@ -127,6 +127,8 @@ h6 {
 #header.header-inner-pages {
   background: rgba(40, 58, 90, 0.9);
 }
+
+
 
 #header .logo {
   font-size: 30px;
@@ -143,6 +145,41 @@ h6 {
 }
 
 #header .logo img {
+  max-height: 40px;
+}
+
+/*--------------------------------------------------------------
+# Header Portifolio
+--------------------------------------------------------------*/
+#headerport {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  background-color: rgb(40, 58, 90);
+}
+
+/*#headerport.header-scrolled,
+#headerport.header-inner-pages {
+  background: rgba(40, 58, 90, 0.9);
+}*/
+
+
+
+#headerport .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#headerport .logo a {
+  color: #fff;
+}
+
+#headerport .logo img {
   max-height: 40px;
 }
 
