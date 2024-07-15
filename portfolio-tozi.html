@@ -36,8 +36,8 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
+ <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/carousel.css" rel="stylesheet">
   <!-- =======================================================
   * Template Name: Arsha - v4.8.0
   * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
@@ -47,6 +47,34 @@
 </head>
 
 <body>
+  <div class="bodyCarousel">
+  <div class="carousel">
+    <input type="radio" name="carousel" id="slide-btn-1" class="slide-btn" onclick="setInt();" checked />
+    <input type="radio" name="carousel" id="slide-btn-2" class="slide-btn" onclick="setInt();" />
+    <input type="radio" name="carousel" id="slide-btn-3" class="slide-btn" onclick="setInt();" />
+    <input type="radio" name="carousel" id="slide-btn-4" class="slide-btn" onclick="setInt();" />
+    <input type="radio" name="carousel" id="slide-btn-5" class="slide-btn" onclick="setInt();" />
+    <div class="slide one parallax-effect"><h1>  </h1>
+      <div class="credit"></div></div>
+    <div class="slide two parallax-effect"><h1>Slide 2</h1>
+      <div class="credit"><a href="https://www.learningrobo.com/">Learning Robo</a></div></div>
+    <div class="slide three parallax-effect"><h1>Slide 3</h1>
+      <div class="credit">Made with <span style="color:tomato">❤</span> by <a href="https://www.learningrobo.com/">Learning Robo</a></div></div>
+    <div class="slide four parallax-effect"><h1>Slide 4</h1>
+      <div class="credit">Made with <span style="color:tomato">❤</span> by <a href="https://www.learningrobo.com/">Learning Robo</a></div></div>
+    <div class="slide five parallax-effect"><h1>Slide 5</h1>
+      <div class="credit">Made with <span style="color:tomato">❤</span> by <a href="https://www.learningrobo.com/">Learning Robo</a></div></div>
+    <div class="labels">
+      <label for="slide-btn-1"></label>
+      <label for="slide-btn-2"></label>
+      <label for="slide-btn-3"></label>
+      <label for="slide-btn-4"></label>
+      <label for="slide-btn-5"></label>
+    </div>
+  </div>
+</div>
+
+  <!-- <iframe src="https://www.veed.io/embed/7610b654-43ac-49b2-a297-f62928a793bc?watermark=1&color=&sharing=1&title=1" width="744" height="504" frameborder="0" title="Revolutionize a Segurança com IA Avançada!" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
   <!-- ======= Header ======= -->
   <header id="headerport" class="fixed-top ">
@@ -91,6 +119,9 @@
 
 
   <main id="main">
+ 
+  
+
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
@@ -254,7 +285,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script src="assets/js/carousel.js"></script>
 </body>
 
 </html>
